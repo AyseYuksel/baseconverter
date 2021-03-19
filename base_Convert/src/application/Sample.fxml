@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane minHeight="200.0" minWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.SampleController">
+   <children>
+      <Label layoutX="46.0" layoutY="46.0" prefHeight="19.0" prefWidth="55.0" text="Sayı Girin" />
+      <Label layoutX="46.0" layoutY="83.0" text="Taban Girin" />
+      <TextField fx:id="sayi" layoutX="118.0" layoutY="43.0" />
+      <TextField fx:id="taban" layoutX="118.0" layoutY="79.0" />
+      <Button fx:id="hesapla" layoutX="150.0" layoutY="122.0" mnemonicParsing="false" onAction="#hesapla_btn" text="hesapla" />
+      <Label fx:id="sonuc" layoutX="228.0" layoutY="126.0" />
+   </children>
+</AnchorPane>
